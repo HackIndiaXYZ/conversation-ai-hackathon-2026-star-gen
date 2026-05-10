@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-blue: #3b82f6;
+  --color-brand-purple: #8b5cf6;
+  --color-bg-dark: #050508;
+  --color-bg-glass: rgba(10, 10, 15, 0.6);
+  --color-border-glass: rgba(255, 255, 255, 0.08);
+}
+
+@layer base {
+  body {
+    @apply bg-[#050508] text-[#e5e7eb] font-sans;
+  }
+}
+
+.glass-panel {
+  @apply bg-[#0a0a0f]/60 backdrop-blur-[20px] border-white/8;
+}
+
+.glass-topbar {
+  @apply bg-[#050508]/40 backdrop-blur-[10px] border-white/5;
+}
+
+.glass-hud {
+  @apply bg-[#0f0f19]/80 backdrop-blur-[24px] border-white/10 shadow-2xl;
+}

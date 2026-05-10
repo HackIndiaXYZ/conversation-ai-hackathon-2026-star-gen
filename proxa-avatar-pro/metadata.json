@@ -1,0 +1,6 @@
+{
+  "name": "Proxa Avatar Pro",
+  "description": "Commercial-grade real-time AI avatar platform with low-latency lip-sync, voice interaction, and modular LLM integration.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["AI Avatar", "Real-time Voice", "Multi-LLM"]
+}
